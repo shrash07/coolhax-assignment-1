@@ -1,0 +1,47 @@
+body{
+  padding: 35px;
+  width: 230mm;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 12pt;
+}
+@page{
+  	size: A4;
+  	margin: 0;
+}
+@media print{
+  .content{
+    width: 210mm;
+    height: 297mm;        
+  }
+}
+.key{
+	padding-right: 0 !important;
+}
+.val{
+	padding-left: 0 !important;
+}
+.body{
+	width:800px;
+	margin-left: auto;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	height: 297mm;
+}
+.brder{
+	border:2px solid black;
+}
+.brder-cell{
+	border-left:2px solid black;
+	border-right:2px solid black;
+	border-collapse: collapse;
+}
+.logo{
+	height: 100px;
+}
+.code{
+	margin-left: auto;
+}
+.rmks{
+	height: 200px;
+}
